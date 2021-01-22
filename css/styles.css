@@ -1,0 +1,33 @@
+/* body{
+    margin: 0;
+} */
+
+.practice img{
+    width: 100%;
+}
+
+.practice > h1{
+    text-align: center;
+}
+
+/* .practice .container{
+    margin: 0 32px;
+} */
+
+.practice .row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.practice .row:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.practice .col-img{
+    width: 50%;
+}
+
+.practice .col-p{
+    width: calc(50% - 32px);
+}
